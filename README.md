@@ -2,9 +2,9 @@
 
 Optimize the Formula 1 season calendar with the **Traveling Salesman Problem (TSP)** to minimize total travel distance (logistics cost & CO₂). The repo includes a **Python heuristic pipeline** and **AMPL exact models**, plus optional **map visualization**.
 
-## 🚀 Quick Start (VS Code • Windows friendly)
+## 🚀 Quick Start
 
-1) **Open the folder in VS Code**, then create/activate a venv:
+1) **Open the folder**, then create/activate a venv:
 ```powershell
 py -m venv .venv
 # If PowerShell blocks activation, run the next line first:
@@ -117,17 +117,6 @@ python -m src.plot_from_arcs
 python -m src.plot_from_schedule
 ```
 
----
-
-## ❗ Troubleshooting
-
-- **Activation blocked**: use one-time bypass
-  ```powershell
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-  .\.venv\Scripts\Activate.ps1
-  ```
-- **Relative import error**: always run modules (`python -m src.test_runner`) and keep `src/__init__.py`.
-- **cartopy install issues**: use `requirements-min.txt` first; install cartopy later with conda.
 
 ---
 
